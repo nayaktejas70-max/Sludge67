@@ -10,7 +10,7 @@ import {
   BookOpen,
   BarChart3,
   Plus,
-  Home,
+  Home as HomeIcon,
 } from 'lucide-react';
 import Dashboard from '@/components/Dashboard';
 import CalorieTracker from '@/components/CalorieTracker';
@@ -101,7 +101,7 @@ export default function Home() {
                   : 'text-gray-700 hover:bg-gray-100'
               }`}
             >
-              <Home className="w-5 h-5" />
+              <HomeIcon className="w-5 h-5" />
               Dashboard
             </button>
 
