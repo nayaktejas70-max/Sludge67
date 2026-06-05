@@ -8,7 +8,6 @@ import {
   TrendingUp,
   BookOpen,
   BarChart3,
-  Plus,
   Home as HomeIcon,
 } from 'lucide-react';
 import Dashboard from '@/components/Dashboard';
