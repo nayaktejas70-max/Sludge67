@@ -1,0 +1,30 @@
+{
+  "name": "sludge67",
+  "version": 2,
+  "env": {
+    "NEXT_PUBLIC_APP_ENV": "production"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "methods": ["GET"]
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "regions": ["sfo1"],
+  "functions": {
+    "api/**": {
+      "maxDuration": 10,
+      "memory": 1024
+    }
+  }
+}
