@@ -5,7 +5,6 @@ import {
   Activity,
   Utensils,
   Dumbbell,
-  User,
   TrendingUp,
   BookOpen,
   BarChart3,
